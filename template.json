@@ -1,0 +1,7 @@
+{{
+    "name": "{node_name}",
+    "client": "{client}",
+    "version": "{version}",
+    "resources": "{resources}",
+    "traps": {trap_data}
+}}

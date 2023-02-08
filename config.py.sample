@@ -1,0 +1,16 @@
+# MQTT Credentials
+# sudo mosquitto_passwd /etc/mosquitto/passwords home.sensor.tandh.gamesRoomLoft
+# mosquitto_sub -h {host} -t "{topic}" -u {username} -P {password}
+mqtt_client_id = "client_id"
+mqtt_username = 'mqtt_username'
+mqtt_password = "mqtt_password"
+mqtt_server = 'IP/HOST'
+mqtt_port = 1883
+topic = "topic_name"
+
+#General
+payload_template = "template.json"
+wifi_connection_attempts = 10
+
+# Pin numbers of the Switches (Pull Up)
+traps = (16, 17, 18, 19)
