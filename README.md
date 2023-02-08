@@ -41,8 +41,8 @@ traps = (16, 17, 18, 19)
 
 # Debugging
 
-Data is logged to the terminal to provide debugging
-Assuming mosquite MQTT the below will allow you to monitor incoming data changes (one for each temp and humidity topic)
+Data is logged to the terminal to provide debugging.
+Assuming mosquite MQTT the below will allow you to monitor incoming data changes
 
 ```bash
 mosquitto_sub -h {host} -t "{topic}" -u {username} -P {password}
